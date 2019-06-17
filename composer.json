@@ -1,0 +1,31 @@
+{
+    "name": "swoft-rewrite/swoft-task",
+    "description": "分布式开发，重写swoft框架之 -- task 模",
+    "keywords": ["swoft","task"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhanghongbo",
+            "email": "taobao1875@163.com"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require": {
+        "php": ">7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwoftRewrite\\Task\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4":{
+            "SwoftRewrite\\Task\\Unit\\":"test/unit/",
+            "SwoftRewrite\\Task\\Unit\\":"test/unit/",
+            "SwoftRewrite\\Task\\Testing\\":"test/testing/"
+        }
+    }
+}
